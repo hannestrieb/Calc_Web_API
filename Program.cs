@@ -25,10 +25,10 @@ string SubtractNumbers(int num1, int num2)
 
 string MultiplyNumbers(int num1, int num2)
 {
-    return $"Produkten av {num1} och {num2} är {num1 * num2}";
+    return $"Produkten av {num1} och {num2} är: {num1 * num2}";
 }
 
 string DivideNumbers(int num1, int num2)
 {
-    return $"Kvoten av {num1} och {num2} är {num1 / (double)num2}";
+    return $"Kvoten av {num1} och {num2} är: {num1 / (double)num2}";
 }
